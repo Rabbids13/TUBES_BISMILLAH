@@ -23,8 +23,7 @@ class masuk(Frame):
     def _login_btn_clicked(self):
         
         username = self.entry_username.get()
-
-        # print(username, password)
+        
         if username == "Helmy" :
             messagebox.showinfo("Login info", "Selamat datang " + username)
             root.destroy()
